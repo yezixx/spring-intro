@@ -8,3 +8,8 @@
 - Packaging: Jar
 - Java: 17
 - Dependencies: Spring Web, Thymeleaf
+
+# 비즈니스 요구사항 (단순하게)
+- 데이터: 회원ID, 이름
+- 기능: 회원 등록, 조회
+- 아직 DB 결정 x -> 우선 인터페이스를 만들고 구현체로는 메모리 기반의 데이터 저장소 사용하는 거로, 향후 DB 결정되면 바꿀 수 있도록
