@@ -5,7 +5,6 @@ import spring.springintro.domain.Member;
 
 import java.util.*;
 
-@Repository
 public class MemoryMemberRepository implements MemberRepository{
     private static Map<Long, Member> store = new HashMap<>(); // Map key: id(Long), value: Member(Object)
     private  static Long sequence = 0L; // sequence: 0, 1, 2.. 등 key 값 생성해주는 거

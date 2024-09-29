@@ -9,12 +9,10 @@ import spring.springintro.repository.MemoryMemberRepository;
 import java.util.List;
 import java.util.Optional;
 
-@Service
 public class MemberService {
 
     private final MemberRepository memberRepository;
 
-    @Autowired
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
         // 리포지토리 외부에서 넣어줌 -> Dependency Injection(DI)
